@@ -39,7 +39,7 @@
     }
 
     #footer #browsers img{
-        width: 40px;
+        width: 34px;
     }
 
     #footer h3{
@@ -68,7 +68,7 @@
     }
 
     #footer #browsers img{
-        width: 34px;
+        width: 33px;
     }
 
     #footer ul li a{
@@ -94,7 +94,7 @@
     }
     
     #footer #browsers img{
-        width: 33px;
+        width: 29px;
     }
 }
 
@@ -148,7 +148,7 @@
     }
 
     #footer #browsers img{
-        width: 30px;
+        width: 28px;
     }
 
     #footer img{
@@ -162,28 +162,19 @@
     #banner{
         background-position:-624px -215px ;
     }
-    #footer .wrap >div{
-        width: 26%;
-        margin: 20px;
-    }
 
-    #footer h3{
-        font-size: 15px;
-        height: 36px;
-        line-height: 40px;
-    }
-    
     #footer #browsers img{
-        width: 33px;
-    }
-
-    #footer ul{
-        font-size:15px;
+        width: 26px;
     }
 
     #footer img{
         width: 100%;
     }
+
+    #footer .wrap > div{
+        width: 23%;
+    }
+
 }
 
 @media(max-width:888px){
@@ -250,12 +241,31 @@
         }
 
         #footer #browsers img{
-                width: 30px;
+                width: 23px;
             }
+
+        #footer ul li a{
+            height: 49px;
+        }
+
+        #footer h3{
+            font-size: 19px;
+            height: 40px;
+            line-height:45px;
+        }
+
+        #footer ul{
+            font-size: 20px;
+        }
+
+        #footer .wrap > div{
+            width: 21%;
+        }
+        
         }
 
 
-    @media(max-width:758px){
+    @media(max-width:800px){
         #menu ul li{
             font-size: 20px;
             line-height: 77px;
@@ -313,10 +323,6 @@
             font-size: 13px;
         }
 
-        #footer #browsers img{
-            width: 25px;
-        }
-
         #blog{
             line-height: 58px;
         }
@@ -326,6 +332,15 @@
 
         #footer img{
             width: 100%;
+        }
+
+        #footer #browsers img{
+            width: 25px;
+        }
+
+        #footer h3{
+            font-size: 16px;
+            font-weight: normal;
         }
     }
 
