@@ -492,4 +492,14 @@
             margin: 0px auto;
         }
 
+        #lateral input[type="text"] {
+            width: 84%;
+          }
+
+        #lateral input[type="button"], 
+        #lateral input[type="submit"] {
+            padding-left: 27px;
+            padding-right: 27px;
+          }
+
     }
