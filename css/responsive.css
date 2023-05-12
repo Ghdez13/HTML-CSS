@@ -34,6 +34,10 @@
         padding-bottom: 8px;
     }
 
+    #blog:hover{
+        width: 93%;
+      }
+
     #footer .wrap > div{
         width: 24%;
     }
@@ -73,6 +77,10 @@
         width: 61%;
     }
 
+    #blog:hover{
+        width: 94%;
+      }
+
     #footer #browsers img{
         width: 33px;
     }
@@ -91,6 +99,7 @@
     #banner{
         background-position:-552px -158px ;
     }
+
     #footer h3{
         font-size: 22px;
     }
@@ -168,6 +177,11 @@
     #banner{
         background-position:-624px -215px ;
     }
+
+
+    #blog:hover{
+        width: 523px;
+      }
 
     #footer #browsers img{
         width: 26px;
@@ -251,6 +265,11 @@
         #login a{
             font-size: 12px;
         }
+
+
+        #blog:hover{
+            width: 485px;
+          }
 
         #footer #browsers img{
                 width: 39px;
@@ -344,6 +363,10 @@
             font-size: 30px;
         }
 
+        #blog:hover{
+            width: 436px;
+          }
+
         #footer img{
             width: 100%;
         }
@@ -429,6 +452,11 @@
              margin-left: 50px;
         }
 
+        #blog:hover{
+            width: 403px;
+          }
+
+
         #footer .wrap >div{
             width: 19%;
         }
@@ -484,22 +512,74 @@
             float: none;
             width: 100%;
             margin: 0px auto;
+            height: auto;
+            margin-top: 15px;
         }
 
         #articles{
             float: none;
             width: 100%;
             margin: 0px auto;
+            height: auto;
         }
+    
 
         #lateral input[type="text"] {
-            width: 84%;
+            width: 89%;
           }
 
-        #lateral input[type="button"], 
-        #lateral input[type="submit"] {
-            padding-left: 27px;
-            padding-right: 27px;
+          #search{
+            width: 77%;
           }
 
+        #lateral input[type="button"]{
+            padding-left: 10px;
+            padding-right: 10px;
+          }
+
+        aside h3:first-child {
+            padding-left: 44%;
+          } 
+
+          aside h3:nth-child(3) {
+            padding-left: 45%;
+          } 
+
+          aside h3:nth-child(5) {
+            padding-left: 39%;
+          } 
+
+          aside h3:nth-child(7) {
+            padding-left: 38%;
+          } 
+
+         #login a{
+            clear: both;
+            margin-left: 16px;
+         }
+
+         #login input[type="email"],
+         #login input[type="password"]{
+            width: 85%;
+         }
+
+         #login input[type="submit"]{
+            margin-left: 15px;
+         }
+
+         #login input[type="reset"]{
+            display:block;
+            margin-left:25px;
+            width: 90px;
+            height: 30px;
+            margin-bottom: 13px;
+         }
+
+         #login #user, #login #password {
+            margin-left: 22px;
+          }
+         
+          #blog:hover{
+            width: 94%;
+          }
     }
